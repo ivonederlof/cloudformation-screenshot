@@ -1,0 +1,34 @@
+{
+  "name": "cloudformation-screenshot",
+  "version": "1.0.0",
+  "description": "Create a screenshot of a cloudformation screenshot",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivonederlof/cloudformation-screenshot.git"
+  },
+  "keywords": [
+    "cloudformation",
+    "diagram",
+    "screenshot",
+    "template"
+  ],
+  "author": "Ivo Nederlof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivonederlof/cloudformation-screenshot/issues"
+  },
+  "homepage": "https://github.com/ivonederlof/cloudformation-screenshot#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "puppeteer": "^1.16.0"
+  }
+}
